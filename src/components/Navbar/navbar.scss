@@ -1,0 +1,29 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+
+    ul {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+
+        li {
+            list-style: none;
+            padding: 0 25px;
+
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.5rem;
+                cursor: pointer;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+}

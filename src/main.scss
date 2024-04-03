@@ -1,0 +1,19 @@
+/* Les composants */
+
+@use "./components/app.scss";
+@use "./components/VideoBG/videobg.scss";
+@use "./components/Navbar/navbar.scss";
+@use "./components/VillagesChoice/villageschoice.scss";
+@use "./components/FamillesSunaChoice/famillessunachoice.scss";
+@use "./components/ClansSunaChoice/clanssunachoice.scss";
+@use "./components//VideoUrahara/videourahara.scss";
+
+/* Les pages */
+
+@use "./pages/AccueilPage/accueilpage.scss";
+@use "./pages/VillagesPage/villagespage.scss";
+@use "./pages/SunaPage/sunapage.scss";
+
+/* Les polices */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
